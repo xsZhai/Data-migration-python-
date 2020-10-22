@@ -14,3 +14,5 @@ for file in all_files:
 frame= pd.concat(li,axis=0,ignore_index=True)
 
 frame.to_csv('foursquare20-21.csv',index=False,encoding='utf-8-sig')
+
+#todo
